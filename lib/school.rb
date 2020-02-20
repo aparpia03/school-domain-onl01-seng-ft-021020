@@ -10,12 +10,10 @@ class School
   
   
   def add_student(name, grade)
-    if @roster[grade] 
+    if @roster[grade] #if hash key exists then do the work underneath which is pushing name string 
       @roster[grade] << name 
     else 
-      @roster[grade] = []
-      
+      @roster[grade] = [] #the key doesn't exist yet, so create the value of empty array and then do the work on the next line which is shoveling the name into newly created array 
+       @roster[grade] << name
     end 
- 
-  
  end   
