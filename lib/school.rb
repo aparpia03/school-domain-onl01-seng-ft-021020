@@ -16,4 +16,5 @@ class School
       @roster[grade] = [] #the key doesn't exist yet, so create the value of empty array and then do the work on the next line which is shoveling the name into newly created array 
        @roster[grade] << name
     end 
- end   
+  end   
+end 
