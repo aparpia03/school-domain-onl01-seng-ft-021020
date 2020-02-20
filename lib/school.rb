@@ -22,7 +22,7 @@ class School
   end   
   
   def sort
-  @name.sort 
+  @roster.each
   end   
   
 end 
